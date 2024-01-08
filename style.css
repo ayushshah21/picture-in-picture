@@ -24,7 +24,8 @@
         margin:20px;
       }
       
-      .button a{
+      button{
+        cursor: pointer;
         color:white;
         font-family:Helvetica, sans-serif;
         font-weight:bold;
@@ -48,7 +49,7 @@
     
       }
       
-      .button a:active{
+      button:active{
         top:10px;
         background-color:#36454F;
         -webkit-box-shadow:inset 0 1px 0 #36454F, inset 0 -3px 0 #36454F;
@@ -69,4 +70,7 @@
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
+      }
+      button:hover{
+        background-color: #353935;
       }
